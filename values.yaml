@@ -1,0 +1,12 @@
+  label: backend
+  replicas: 1
+  deploymentName: backend-deployment
+  containerName: backend
+  containerPort: 3001
+  image: zeeshan19/backend
+  tag: latest
+  env:
+    NAME: "Zeeshan Haider"
+  serviceName: backend-service
+  servicePort: 80
+  serviceNodePort: 30001
