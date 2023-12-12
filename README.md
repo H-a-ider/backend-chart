@@ -1,4 +1,4 @@
-# Helm Charts for frontend 
+# Helm Charts for frontend  
 
 This repository contains Helm charts for deploying backend applications on Kubernetes.
 
